@@ -1,6 +1,6 @@
 body {
     background-color: navy; 
-    color: rgb(242, 197, 85); 
+    color: rgba(224, 205, 157, 0.892);  
     font-family: Arial, sans-serif; 
     margin: 0;
     padding: 0;
@@ -8,29 +8,29 @@ body {
 
 /* Navigation bar styling */
 nav {
-    background-color: rgb(242, 197, 85); 
+    background-color: rgba(224, 205, 157, 0.892); 
     text-align: center;
     padding: 10px;
 }
 
 nav a {
-    color: navy; 
-    text-decoration: none; 
+    color: navy;
+    text-decoration: none;
     margin: 0 10px;
     font-weight: bold;
-    font-size: 20px; 
+    font-size: 20px;
 }
 
 /* Heading styling */
-h1, h2 {
+h1 {
     text-align: center;
-    color: rgb(242, 197, 85); 
+    color: rgba(224, 205, 157, 0.892);   
     margin-top: 20px;
 }
 
 /* Footer styling */
 footer {
-    background-color: rgb(242, 197, 85); 
+    background-color: rgba(224, 205, 157, 0.892);  
     text-align: center;
     padding: 10px;
     color: navy;
@@ -40,6 +40,7 @@ footer {
 footer a {
     color: navy; 
     text-decoration: none;
+    margin: 0 10px;
     font-weight: bold;
     font-size: 20px;
 }

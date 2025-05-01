@@ -1,26 +1,26 @@
 body {
     background-color: navy;
-    color: rgb(242, 197, 85)
+    color:   rgba(224, 205, 157, 0.892);  
 
 }
 
 h1 {
     text-align: center;
+    color:rgba(224, 205, 157, 0.892);  
 }
 
 
 nav {
-    background-color: rgb(242, 197, 85); 
-    text-align: center; 
-    padding: 10px; 
-
+    background-color: rgba(224, 205, 157, 0.892);
+    text-align: center;
+    padding: 10px;
 }
 
 nav a {
-    color: navy; 
-    text-decoration: none; 
-    margin: 0 10px; 
-    font-weight: bold; 
+    color: navy;
+    text-decoration: none;
+    margin: 0 10px;
+    font-weight: bold;
     font-size: 20px;
 }
 table {
@@ -31,13 +31,13 @@ table {
 }
 
 table th, table td {
-    border: 3px solid rgb(242, 197, 85); 
+    border: 3px solid  rgba(224, 205, 157, 0.892);  
     padding: 10px; 
     color: navy; 
 }
 
 table th {
-    background-color: rgb(242, 197, 85); 
+    background-color: rgba(224, 205, 157, 0.892); 
     font-weight: bold; 
 }
 
@@ -46,7 +46,7 @@ table td {
 }
 
 footer {
-    background-color: rgb(242, 197, 85); 
+    background-color:  rgba(224, 205, 157, 0.892);  
     text-align: center; 
     padding: 10px; 
     color: navy; 
