@@ -1,0 +1,45 @@
+body {
+    background-color: navy; 
+    color: rgb(242, 197, 85); 
+    font-family: Arial, sans-serif; 
+    margin: 0;
+    padding: 0;
+}
+
+/* Navigation bar styling */
+nav {
+    background-color: rgb(242, 197, 85); 
+    text-align: center;
+    padding: 10px;
+}
+
+nav a {
+    color: navy; 
+    text-decoration: none; 
+    margin: 0 10px;
+    font-weight: bold;
+    font-size: 20px; 
+}
+
+/* Heading styling */
+h1, h2 {
+    text-align: center;
+    color: rgb(242, 197, 85); 
+    margin-top: 20px;
+}
+
+/* Footer styling */
+footer {
+    background-color: rgb(242, 197, 85); 
+    text-align: center;
+    padding: 10px;
+    color: navy;
+    margin-top: 20px;
+}
+
+footer a {
+    color: navy; 
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 20px;
+}

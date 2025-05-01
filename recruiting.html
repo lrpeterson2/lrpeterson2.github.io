@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Volleyball Recruitment Form</title>
+  <link rel="icon" href="images/volleyball.png" type="image/png">
+  <link rel="stylesheet" href="css/recruitmentstyles.css">
+  <script src="js/recruitmentscript.js" defer></script>
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="index.html">
+                <img src="images/eagle.png" style="width: 30px; height: 30px; vertical-align: middle; margin-right: 10px;">
+            <a href= "index.html">Home</a> |
+            <a href="Schedule.html">Schedule</a> |
+            <a href="Roster.html">Roster</a> |
+            <a href="Stats.html">Stats</a> |
+            <a href="recruiting.html">Recruiting</a>
+        </nav>
+    </header> 
+  <h2>Volleyball Recruitment Form</h2>
+  <p id="message" style="color: gold;"></p>
+    <div class="form-container">
+    <form id="recruitmentForm">
+    
+    <!-- Text Input -->
+    <label for="name">Full Name:</label><br>
+    <input type="text" id="name" name="name" required><br><br>
+
+    <label for="school">High School Name:</label><br>
+    <input type="text" id="school" name="school" required><br><br>
+
+    <!-- Checkbox Input -->
+    <label>Positions Played (check all that apply):</label><br>
+    <input type="checkbox" id="outside" name="position" value="Outside Hitter">
+    <label for="outside">Outside Hitter</label><br>
+    <input type="checkbox" id="middle" name="position" value="Middle Blocker">
+    <label for="middle">Middle Blocker</label><br>
+    <input type="checkbox" id="setter" name="position" value="Setter">
+    <label for="setter">Setter</label><br>
+    <input type="checkbox" id="libero" name="position" value="Libero">
+    <label for="libero">Libero</label><br><br>
+
+    <!-- Radio Input -->
+    <label>Preferred Contact Method:</label><br>
+    <input type="radio" id="email" name="contact" value="Email" required>
+    <label for="email">Email</label><br>
+    <input type="radio" id="phone" name="contact" value="Phone">
+    <label for="phone">Phone</label><br><br>
+
+    <!-- Reset and Submit Buttons -->
+    <input type="reset" value="Reset Form">
+    <input type="submit" value="Submit Application">
+
+  </form>
+  <footer style="text-align: center; margin-top: 20px;">
+    <p>Go Eagles!</p>
+    </div>
+</footer>
+</body>
+</html>

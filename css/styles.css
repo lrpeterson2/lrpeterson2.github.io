@@ -2,4 +2,38 @@ body {
     background-color: navy;
     color: rgb(242, 197, 85)
 }
+nav {
+    background-color: rgb(242, 197, 85); 
+    text-align: center; 
+    padding: 10px; 
+
+}
+
+nav a {
+    color: navy; 
+    text-decoration: none; 
+    margin: 0 10px; 
+    font-weight: bold; 
+    font-size: 20px;
+}
+img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+footer {
+    background-color: rgb(242, 197, 85); 
+    text-align: center; 
+    padding: 10px; 
+    color: navy; 
+}
+
+footer a {
+    color: navy; 
+    text-decoration: none; 
+    margin: 0 10px; 
+    font-weight: bold; 
+    font-size: 20px;
+}
 
